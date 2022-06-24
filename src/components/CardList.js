@@ -8,7 +8,8 @@ export default function CardList() {
   const [task, setTasks] = useState([]);
   useEffect(() => {
     try {
-      axios.get("https://fakestoreapi.com/products").then((response) => {
+      axios.get("https://api.escuelajs.co/api/v1/products/?_limit=20")
+      .then((response) => {
         setTasks(response.data);
       });
     } catch {
@@ -25,12 +26,12 @@ export default function CardList() {
           {task.map((task) => {
             return (
               <div className="card" key={task.id}>
-                <img src={task.image} alt="" />
+                <img src={task.images[0]} alt="" />
                 <div className="container">
                   <h3>{task.title}</h3>
                   <p>
                     <b>Category : </b>
-                    {task.category}
+                    {task.category.name}
                   </p>
                   <p>
                     <b>Price : </b> ${task.price}
