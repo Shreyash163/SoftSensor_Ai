@@ -1,0 +1,36 @@
+.cart {
+    margin-top: 50px;
+    margin-left: 40%;
+    height: 100px;
+    width: 200px;
+    border: solid 2px darkblue;
+    align-items: center;
+    padding-left: 5px;
+  }
+  .cart button {
+    background-color: #5858f3;
+    border: none;
+    margin-left: 35px;
+    height: 20px;
+    width: 40px;
+    border-radius: 10px;
+  }
+  
+  .cart .btn1 {
+    margin-top: 30%;
+    background-color: #5858f3;
+    border-radius: 10px;
+    border: none;
+    height: 20px;
+    width: 50px;
+    cursor: pointer;
+  }
+  
+  .cart .btn2 {
+    background-color: #5858f3;
+    border-radius: 10px;
+    border: none;
+    height: 20px;
+    width: 50px;
+    cursor: pointer;
+  }

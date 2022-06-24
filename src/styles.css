@@ -1,0 +1,14 @@
+* {
+    font-family: "Work Sans", sans-serif;
+  }
+  
+  .App {
+    font-family: sans-serif;
+    text-align: center;
+  
+    /* background-color: rgb(105, 103, 100); */
+  }
+  
+  .CardList {
+    flex-direction: row;
+  }

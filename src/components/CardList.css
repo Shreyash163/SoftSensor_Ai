@@ -1,0 +1,78 @@
+.row {
+    flex-direction: row;
+    background: rgb(200, 22, 160);
+    background: linear-gradient(
+      122deg,
+      rgba(200, 22, 160, 1) 0%,
+      rgba(255, 98, 0, 1) 100%
+    );
+  }
+  
+  .header {
+    top: 0;
+    left: 0;
+    padding-left: 10px;
+    width: 100%;
+    position: fixed;
+    background: rgb(148, 141, 141);
+    z-index: 1;
+    color: #f1f1f1;
+    height: 50px;
+  }
+  
+  .header h2 {
+    justify-content: center;
+    display: flex;
+    align-self: flex-end;
+  }
+  .cardlist {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  
+  .card {
+    margin-left: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    width: 200px;
+    margin-top: 60px;
+    height: auto;
+    border-radius: 10px;
+    z-index: 0;
+    background-color: rgba(116, 236, 220, 0.836);
+  }
+  
+  .card img {
+    padding: 10px 10px;
+    width: 90%;
+    border-radius: 10px;
+    height: 160px;
+  }
+  
+  .card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.6);
+    transition-duration: 0.3s;
+  }
+  
+  .container h3 {
+    margin-top: -10px;
+  }
+  
+  .container {
+    padding: 0px 10px;
+  }
+  
+  .container button {
+    margin-top: -10px;
+    background-color: #0f95ef;
+    border: none;
+    border-radius: 5px;
+  
+    height: 30px;
+    cursor: pointer;
+  }
+  
+  .container button:hover {
+    background-color: #0d77be;
+    transition-duration: 0.3s;
+  }
